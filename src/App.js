@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
+  const name = "harsh rajesh sutaria";
+  const person = { a: "abd", surname: "deviliers" };
+  let like = 50;
+  let c = `trust me you are gonna love this`;
   return (
+    // the only thing which we cannot output is boolean and object directly but we can pass obj.property
+    /**
+     * the only thing we can`t output is boolean and object
+     */
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="content">
+        <h1>{name}</h1>
+        <h2>!{person.surname}</h2>
+        <h3>{5 + 6 + 7 + 8}</h3>
+        <h5>{`a developer and tester cant be friends`}</h5>
+        <h1>{"welcome to react course !!!!!!!!!!"}</h1>
+        <h2>{c}</h2>
+        <h2>{String(true)}</h2>
+      </div>
     </div>
   );
 }
 
+// we will always export this function
 export default App;
