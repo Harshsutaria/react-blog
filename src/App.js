@@ -1,6 +1,7 @@
 import "./App.css";
 import Navbar from "./Navbar";
 import Home from "./Home";
+import { ContactInfo } from "./ContactInfo";
 
 function App() {
   // const name = "harsh rajesh sutaria";
@@ -21,13 +22,9 @@ function App() {
         <div className="homePage">
           <Home />
         </div>
-        {/* <h1>{name}</h1>
-        <h2>!{person.surname}</h2>
-        <h3>{5 + 6 + 7 + 8}</h3>
-        <h5>{`a developer and tester cant be friends`}</h5>
-        <h1>{"welcome to react course !!!!!!!!!!"}</h1>
-        <h2>{c}</h2>
-        <h2>{String(true)}</h2> */}
+        <div className="contactPage">
+          <ContactInfo />
+        </div>
       </div>
     </div>
   );
