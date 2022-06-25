@@ -2,7 +2,7 @@ import "./App.css";
 import Navbar from "./Navbar";
 import Home from "./Home";
 import { ContactInfo } from "./ContactInfo";
-
+import Counter from "./Counter";
 function App() {
   // const name = "harsh rajesh sutaria";
   // const person = { a: "abd", surname: "deviliers" };
@@ -24,6 +24,9 @@ function App() {
         </div>
         <div className="contactPage">
           <ContactInfo />
+        </div>
+        <div className="counterPage">
+          <Counter />
         </div>
       </div>
     </div>
