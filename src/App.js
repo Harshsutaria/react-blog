@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Home from "./Home";
 import { ContactInfo } from "./ContactInfo";
 import Counter from "./Counter";
+import BlogListing from "./BlogListing";
 function App() {
   // const name = "harsh rajesh sutaria";
   // const person = { a: "abd", surname: "deviliers" };
@@ -27,6 +28,9 @@ function App() {
         </div>
         <div className="counterPage">
           <Counter />
+        </div>
+        <div className="ProductListing">
+          <BlogListing />
         </div>
       </div>
     </div>
