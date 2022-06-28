@@ -1,5 +1,5 @@
 export const Manufacturer = function ({ sellerInfo, skuCount }) {
-  console.log(`INSIDE COUNTER-DECREMENT COMPONENT`, sellerInfo);
+  console.log(`INSIDE Manufacturer COMPONENT`, sellerInfo);
   return (
     <div className="seller">
       <h1>{sellerInfo.firstName}</h1>
