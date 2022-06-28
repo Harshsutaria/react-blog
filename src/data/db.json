@@ -1,0 +1,451 @@
+{
+  "level3ProductsList": [
+    {
+      "LUT": "2022-06-08T07:18:40.514Z",
+      "mrp": 3448110,
+      "season": "",
+      "createdBy": {
+        "latLong": "",
+        "location": "",
+        "businessKey": "",
+        "businessName": "",
+        "businessTypeName": ""
+      },
+      "createdTS": "2022-06-08T07:18:39.434Z",
+      "storeName": "OUTPUTS_STORE",
+      "updatedBy": {
+        "latLong": "",
+        "location": "",
+        "businessKey": "",
+        "businessName": "",
+        "businessTypeName": ""
+      },
+      "varietyId": "1ady",
+      "languageId": "1",
+      "reviewedBy": {
+        "latLong": "",
+        "location": "",
+        "businessKey": "",
+        "businessName": "",
+        "businessTypeName": ""
+      },
+      "reviewedOn": "2022-06-08T07:18:40.514Z",
+      "taxDetails": { "cgst": 0, "igst": 0, "sgst": 0 },
+      "attachments": [
+        {
+          "type": "Finished product",
+          "attachments": [
+            {
+              "url": "/data/p_images/1637901798301.jpeg",
+              "context": "",
+              "msgType": "IMAGE"
+            }
+          ]
+        }
+      ],
+      "isBulkOrder": false,
+      "isForReview": false,
+      "isPublished": true,
+      "productType": "PRODUCT",
+      "selectedSKU": ["weight"],
+      "languageName": "English",
+      "pricePerUnit": 3448110,
+      "baseProductId": "0wt4",
+      "harvestedYear": "",
+      "smartElements": {
+        "color": {
+          "type": "text",
+          "unit": "",
+          "units": [],
+          "value": "",
+          "enabled": false
+        },
+        "shape": {
+          "type": "text",
+          "unit": "",
+          "units": [],
+          "value": "",
+          "enabled": false
+        },
+        "weight": { "unit": "ton", "value": "20.2", "enabled": true },
+        "diameter": {
+          "type": "text_option",
+          "unit": "",
+          "units": [],
+          "value": "",
+          "enabled": false
+        },
+        "setCount": {
+          "type": "text_option",
+          "unit": "",
+          "units": [],
+          "value": "",
+          "enabled": false
+        },
+        "dimensions": {
+          "type": "text_option",
+          "unit": "",
+          "units": [],
+          "width": { "value": "", "enabled": false },
+          "height": { "value": "", "enabled": false },
+          "length": { "value": "", "enabled": false },
+          "enabled": false,
+          "diameter": { "value": "", "enabled": false },
+          "circumference": { "value": "", "enabled": false }
+        },
+        "sizeByName": {
+          "type": "text",
+          "unit": "",
+          "units": [],
+          "value": "",
+          "enabled": false
+        },
+        "smartLabel": {
+          "type": "text",
+          "units": [],
+          "value": "",
+          "enabled": false
+        },
+        "sizeByNumber": {
+          "type": "text",
+          "unit": "",
+          "units": [],
+          "value": "",
+          "enabled": false
+        }
+      },
+      "actionPerformed": "REVIEW_ACCEPT",
+      "productLevel1Id": "5bss",
+      "productLevel2Id": "5bst",
+      "productLevel3Id": "5bsu",
+      "isReviewAccepted": true,
+      "isReviewInProgress": false,
+      "productLevel1Title": "Teja",
+      "productLevel2Title": "Teja",
+      "productLevel3Title": "Teja",
+      "manufacturerDetails": {
+        "firstName": "Deepak",
+        "profileKey": "M01sph50PRFREG2022052850731757UNH001",
+        "profilePicURL": "https://kalgudi.com/data/profilepics/M01sph50PRFREG2022052850731757UNH001.png"
+      },
+      "selectedTrSpecsQuery": {
+        "SKUs": [],
+        "Types": ["With stem"],
+        "Grades": ["Deluxe"],
+        "Drying methods": ["Sun drying"],
+        "Packaging types": ["Jute bag"],
+        "Cultivation types": ["Conventional"]
+      },
+      "selectedTradeSpecifications": [
+        { "label": "Cultivation types", "options": ["Conventional"] },
+        { "label": "Types", "options": ["With stem"] },
+        { "label": "Grades", "options": ["Deluxe"] },
+        { "label": "Drying methods", "options": ["Sun drying"] },
+        { "label": "Packaging types", "options": ["Jute bag"] },
+        { "label": "SKUs", "options": [] }
+      ]
+    },
+    {
+      "LUT": "2022-06-08T07:24:46.685Z",
+      "mrp": 3322312,
+      "season": "",
+      "createdBy": {
+        "latLong": "",
+        "location": "",
+        "businessKey": "",
+        "businessName": "",
+        "businessTypeName": ""
+      },
+      "createdTS": "2022-06-08T07:24:45.388Z",
+      "storeName": "OUTPUTS_STORE",
+      "updatedBy": {
+        "latLong": "",
+        "location": "",
+        "businessKey": "",
+        "businessName": "",
+        "businessTypeName": ""
+      },
+      "varietyId": "1ady",
+      "languageId": "1",
+      "reviewedBy": {
+        "latLong": "",
+        "location": "",
+        "businessKey": "",
+        "businessName": "",
+        "businessTypeName": ""
+      },
+      "reviewedOn": "2022-06-08T07:24:46.685Z",
+      "taxDetails": { "cgst": 0, "igst": 0, "sgst": 0 },
+      "attachments": [
+        {
+          "type": "Finished product",
+          "attachments": [
+            {
+              "url": "/data/p_images/1637901798301.jpeg",
+              "context": "",
+              "msgType": "IMAGE"
+            }
+          ]
+        }
+      ],
+      "isBulkOrder": false,
+      "isForReview": false,
+      "isPublished": true,
+      "productType": "PRODUCT",
+      "selectedSKU": ["weight"],
+      "languageName": "English",
+      "pricePerUnit": 3322312,
+      "baseProductId": "0wt4",
+      "harvestedYear": "",
+      "smartElements": {
+        "color": {
+          "type": "text",
+          "unit": "",
+          "units": [],
+          "value": "",
+          "enabled": false
+        },
+        "shape": {
+          "type": "text",
+          "unit": "",
+          "units": [],
+          "value": "",
+          "enabled": false
+        },
+        "weight": { "unit": "ton", "value": "20.2", "enabled": true },
+        "diameter": {
+          "type": "text_option",
+          "unit": "",
+          "units": [],
+          "value": "",
+          "enabled": false
+        },
+        "setCount": {
+          "type": "text_option",
+          "unit": "",
+          "units": [],
+          "value": "",
+          "enabled": false
+        },
+        "dimensions": {
+          "type": "text_option",
+          "unit": "",
+          "units": [],
+          "width": { "value": "", "enabled": false },
+          "height": { "value": "", "enabled": false },
+          "length": { "value": "", "enabled": false },
+          "enabled": false,
+          "diameter": { "value": "", "enabled": false },
+          "circumference": { "value": "", "enabled": false }
+        },
+        "sizeByName": {
+          "type": "text",
+          "unit": "",
+          "units": [],
+          "value": "",
+          "enabled": false
+        },
+        "smartLabel": {
+          "type": "text",
+          "units": [],
+          "value": "",
+          "enabled": false
+        },
+        "sizeByNumber": {
+          "type": "text",
+          "unit": "",
+          "units": [],
+          "value": "",
+          "enabled": false
+        }
+      },
+      "actionPerformed": "REVIEW_ACCEPT",
+      "productLevel1Id": "5bss",
+      "productLevel2Id": "5bst",
+      "productLevel3Id": "5bsz",
+      "isReviewAccepted": true,
+      "isReviewInProgress": false,
+      "productLevel1Title": "Teja",
+      "productLevel2Title": "Teja",
+      "productLevel3Title": "Teja",
+      "manufacturerDetails": {
+        "firstName": "Deepak",
+        "profileKey": "M01sph50PRFREG2022052850731757UNH001",
+        "profilePicURL": "https://kalgudi.com/data/profilepics/M01sph50PRFREG2022052850731757UNH001.png"
+      },
+      "selectedTrSpecsQuery": {
+        "SKUs": [],
+        "Types": ["With stem"],
+        "Grades": ["Best"],
+        "Drying methods": ["Sun drying"],
+        "Packaging types": ["Jute bag"],
+        "Cultivation types": ["Conventional"]
+      },
+      "selectedTradeSpecifications": [
+        { "label": "Cultivation types", "options": ["Conventional"] },
+        { "label": "Types", "options": ["With stem"] },
+        { "label": "Grades", "options": ["Best"] },
+        { "label": "Drying methods", "options": ["Sun drying"] },
+        { "label": "Packaging types", "options": ["Jute bag"] },
+        { "label": "SKUs", "options": [] }
+      ]
+    },
+    {
+      "baseProductId": "0wt4",
+      "varietyId": "1ady",
+      "attachments": [
+        {
+          "type": "Finished product",
+          "attachments": [
+            {
+              "url": "/data/p_images/1637901798301.jpeg",
+              "context": "",
+              "msgType": "IMAGE"
+            }
+          ]
+        }
+      ],
+      "mrp": 1825842,
+      "pricePerUnit": 1825842,
+      "harvestedYear": "",
+      "season": "",
+      "storeName": "OUTPUTS_STORE",
+      "selectedTradeSpecifications": [
+        { "label": "Cultivation types", "options": ["Conventional"] },
+        { "label": "Types", "options": ["With stem"] },
+        { "label": "Grades", "options": ["Best"] },
+        { "label": "Drying methods", "options": ["Sun drying"] },
+        { "label": "Packaging types", "options": ["Jute bag"] },
+        { "label": "SKUs", "options": [] }
+      ],
+      "manufacturerDetails": {
+        "profileKey": "M01sph50PRFREG2022052850731757UNH001",
+        "firstName": "Deepak",
+        "profilePicURL": "https://kalgudi.com/data/profilepics/M01sph50PRFREG2022052850731757UNH001.png"
+      },
+      "taxDetails": { "cgst": 0, "sgst": 0, "igst": 0 },
+      "productLevel1Id": "5bss",
+      "productLevel2Id": "5bst",
+      "productLevel2Title": "Teja",
+      "productLevel1Title": "Teja",
+      "productLevel3Title": "Teja",
+      "selectedSKU": ["weight"],
+      "productLevel3Id": "5c50",
+      "createdTS": "2022-06-11T09:26:48.358Z",
+      "LUT": "2022-06-11T09:26:49.729Z",
+      "productType": "PRODUCT",
+      "createdBy": {
+        "businessKey": "",
+        "businessName": "",
+        "businessTypeName": "",
+        "latLong": "",
+        "location": ""
+      },
+      "isForReview": false,
+      "isBulkOrder": false,
+      "isPublished": true,
+      "isReviewAccepted": true,
+      "isReviewInProgress": false,
+      "languageId": "1",
+      "languageName": "English",
+      "smartElements": {
+        "color": {
+          "enabled": false,
+          "value": "",
+          "unit": "",
+          "type": "text",
+          "units": []
+        },
+        "sizeByName": {
+          "enabled": false,
+          "value": "",
+          "unit": "",
+          "type": "text",
+          "units": []
+        },
+        "sizeByNumber": {
+          "enabled": false,
+          "value": "",
+          "unit": "",
+          "type": "text",
+          "units": []
+        },
+        "shape": {
+          "enabled": false,
+          "value": "",
+          "unit": "",
+          "type": "text",
+          "units": []
+        },
+        "setCount": {
+          "enabled": false,
+          "value": "",
+          "unit": "",
+          "type": "text_option",
+          "units": []
+        },
+        "dimensions": {
+          "enabled": false,
+          "type": "text_option",
+          "units": [],
+          "unit": "",
+          "height": { "enabled": false, "value": "" },
+          "width": { "enabled": false, "value": "" },
+          "length": { "enabled": false, "value": "" },
+          "diameter": { "enabled": false, "value": "" },
+          "circumference": { "enabled": false, "value": "" }
+        },
+        "smartLabel": {
+          "enabled": false,
+          "value": "",
+          "type": "text",
+          "units": []
+        },
+        "diameter": {
+          "enabled": false,
+          "value": "",
+          "unit": "",
+          "type": "text_option",
+          "units": []
+        },
+        "weight": { "unit": "ton", "value": "10.5", "enabled": true }
+      },
+      "packagingDetails": { "cost": 0 },
+      "handlingDetails": { "cost": 0 },
+      "shippingDetails": {
+        "weight": {},
+        "dimension": {
+          "units": "default",
+          "height": "0",
+          "width": "0",
+          "length": "0"
+        },
+        "cost": 0
+      },
+      "selectedTrSpecsQuery": {
+        "Cultivation types": ["Conventional"],
+        "Types": ["With stem"],
+        "Grades": ["Best"],
+        "Drying methods": ["Sun drying"],
+        "Packaging types": ["Jute bag"],
+        "SKUs": []
+      },
+      "updatedBy": {
+        "businessKey": "",
+        "businessName": "",
+        "businessTypeName": "",
+        "latLong": "",
+        "location": ""
+      },
+      "reviewedBy": {
+        "businessKey": "",
+        "businessName": "",
+        "businessTypeName": "",
+        "latLong": "",
+        "location": ""
+      },
+      "reviewedOn": "2022-06-11T09:26:49.729Z",
+      "actionPerformed": "REVIEW_ACCEPT"
+    }
+  ]
+}

@@ -4,6 +4,7 @@ import Home from "./Home";
 import { ContactInfo } from "./ContactInfo";
 import Counter from "./Counter";
 import BlogListing from "./BlogListing";
+import { GetAll } from "./GetAll";
 function App() {
   // const name = "harsh rajesh sutaria";
   // const person = { a: "abd", surname: "deviliers" };
@@ -29,8 +30,11 @@ function App() {
         <div className="counterPage">
           <Counter />
         </div>
-        <div className="ProductListing">
+        {/* <div className="ProductListing">
           <BlogListing />
+        </div> */}
+        <div className="ProductListing">
+          <GetAll />
         </div>
       </div>
     </div>
