@@ -5,7 +5,11 @@ import { useEffect } from "react";
 export const GetAll = () => {
   console.log("inside SKU listing component ");
 
+  // state variable for productListing
   let [productList, setProductList] = useState(null);
+
+  // state variable for isPending
+  let [isPending, setPending] = useState(true);
 
   const handleDelete = (id) => {
     productList = productList.filter((x) => id !== x.productLevel3Id);
@@ -21,9 +25,14 @@ export const GetAll = () => {
    * that process must be automated
    */
   useEffect(() => {
-    fetch("http://localhost:8000/level3ProductsList")
-      .then((res) => res.json())
-      .then((data) => setProductList(data));
+    setTimeout(() => {
+      fetch("http://localhost:8000/level3ProductsList")
+        .then((res) => res.json())
+        .then((data) => {
+          setProductList(data);
+          setPending(false);
+        });
+    }, 2000);
   }, []);
 
   return (
@@ -32,6 +41,9 @@ export const GetAll = () => {
       <div>
         {/* below is the conditional rendering means if the data is 
         present than only productList component will be rendered  */}
+        <h1>
+          {isPending ? "LOADING!!!!!!!!!!!" : "FETCHED RECORDS SUCCESSFULLY!!"}
+        </h1>
         {productList && (
           <ProductListing
             productList={productList}
