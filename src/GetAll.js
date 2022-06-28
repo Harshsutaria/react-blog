@@ -30,7 +30,8 @@ export const GetAll = () => {
     <div className="blogListing">
       {/* here below there is a map return it will execute it works as a for loop  */}
       <div>
-        {/* below is how we pass props(data) into a component  */}
+        {/* below is the conditional rendering means if the data is 
+        present than only productList component will be rendered  */}
         {productList && (
           <ProductListing
             productList={productList}
