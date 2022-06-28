@@ -6,6 +6,7 @@ const BlogListing = () => {
   console.log("inside Blog listing component ");
   console.log(a.level3ProductsList.length);
   let [productList] = useState(a.level3ProductsList);
+  productList.sort((a, b) => b.mrp - a.mrp);
   return (
     <div className="blogListing">
       {/* here below there is a map return it will execute it works as a for loop  */}
@@ -23,6 +24,11 @@ const BlogListing = () => {
           title="ProductListing !!!!!!"
           name="cheems"
           surname="cheemba!!!"
+        ></ProductListing>
+        {/* resuing the component again showing only maximum mrp  */}
+        <ProductListing
+          productList={[productList.filter((x) => x.isPublished)[0]]}
+          title="Most Expensive Sku!!!!"
         ></ProductListing>
       </div>
     </div>
