@@ -8,6 +8,6 @@ The only catch is - you should be willing to work hard, stay consistent, and bel
 
 Are you working hard on your dreams?
 
-Consistency beats speed hardwork beats talent
+Consistency beats speed HARDWORK beats talent
 
 `मंजिल मिल ही जायेगी भटकते ही सही, गुमराह तो वो है जो घर से निकले ही नहीं `
