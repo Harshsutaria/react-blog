@@ -1,50 +1,18 @@
-import { useState } from "react";
 import { ProductListing } from "./ProductListing";
-import { useEffect } from "react";
+import useFetch from "./useFetch";
 
 export const GetAll = () => {
   console.log("inside SKU listing component ");
+  const { isPending, data, error } = useFetch(
+    "http://localhost:8000/level3ProductsList"
+  );
 
-  // state variable for productListing
-  let [productList, setProductList] = useState(null);
-
-  // state variable for isPending
-  let [isPending, setPending] = useState(true);
-  let [error, setError] = useState();
-
-  //delete a sku method
-  const handleDelete = (id) => {
-    productList = productList.filter((x) => id !== x.productLevel3Id);
-    console.log("new sku length is ", productList.length);
-    setProductList(productList);
-  };
-
-  //   useEffect
-
-  /**
-   * mostly we do fetching data in the useEffect as after
-   * every refresh we don't want to fetch the data manually
-   * that process must be automated
-   */
-  useEffect(() => {
-    setTimeout(() => {
-      fetch("http://localhost:8000/level3ProductsList")
-        .then((res) => {
-          if (!res.ok) throw new Error("Some thing went wrong !!!");
-          return res.json();
-        })
-        .then((data) => {
-          // @ts-ignore
-          setProductList(data);
-          setPending(false);
-        })
-        .catch((error) => {
-          setError(error);
-          setPending(false);
-          console.log("error aagaya bahi !!!!!!!!!!!", error);
-        });
-    }, 2000);
-  }, []);
+  console.log(
+    "getting the data from use effect hook is",
+    isPending,
+    data.length,
+    error
+  );
 
   return (
     <div className="blogListing">
@@ -56,11 +24,11 @@ export const GetAll = () => {
           {error}
           {isPending ? "LOADING!!!!!!!!!!!" : "FETCHED RECORDS SUCCESSFULLY!!"}
         </h1>
-        {productList && (
+        {data && (
           <ProductListing
-            productList={productList}
+            productList={data}
             title="ProductListing !!!!!!"
-            handleDelete={handleDelete}
+            // handleDelete={}
           ></ProductListing>
         )}
       </div>

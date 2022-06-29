@@ -1,4 +1,4 @@
-export const ProductListing = function ({ productList, title, handleDelete }) {
+export const ProductListing = function ({ productList, title }) {
   console.log("INSIDE ProductListing COMPONENT!!!!");
 
   return (
@@ -14,9 +14,9 @@ export const ProductListing = function ({ productList, title, handleDelete }) {
           <h6>{x.isPublished}</h6>
 
           {/* always function call is done via anonamous function else it will execute it again and again  */}
-          <button onClick={() => handleDelete(x.productLevel3Id)}>
+          {/* <button onClick={() => handleDelete(x.productLevel3Id)}>
             delete me please!!!!!!
-          </button>
+          </button> */}
         </div>
       ))}
     </div>
