@@ -10,4 +10,4 @@ Are you working hard on your dreams?
 
 Consistency beats speed hardwork beats talent
 
-`मंजिल मिल ही जायेगी भटकते ही सही, गुमराह तो वो है जो घर से निकले ही नहीं`
+`मंजिल मिल ही जायेगी भटकते ही सही, गुमराह तो वो है जो घर से निकले ही नहीं `
