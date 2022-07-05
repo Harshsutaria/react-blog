@@ -6,6 +6,8 @@ import Counter from "./Counter";
 import BlogListing from "./BlogListing";
 import { GetAll } from "./GetAll";
 import { DecrementCounter } from "./DecrementCounter";
+import { Create } from "./Create";
+import { GetProduct } from "./GetProduct";
 // importing routing module
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 function App() {
@@ -38,7 +40,17 @@ function App() {
                 <ContactInfo />
               </div>
             </Route>
-
+            <Route path="/create">
+              <div className="createProduct">
+                <Create />
+              </div>
+            </Route>
+            {/* route for getting a product full view */}
+            <Route path="/product/:id">
+              <div className="getProduct">
+                <GetProduct />
+              </div>
+            </Route>
             <Route path="/counter">
               <div className="counterPage">
                 <Counter />
